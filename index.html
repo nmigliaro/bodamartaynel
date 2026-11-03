@@ -3,9 +3,74 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hola mundo</title>
+    <title>Inicio</title>
+    <link rel="stylesheet" href="assets/site.css">
   </head>
   <body>
-    <h1>¡Hola, mundo!</h1>
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-name">Marta y Nelson</span><span class="brand-date">04.05.2024</span></a>
+      <nav aria-label="Navegación principal">
+        <a class="current" href="./">Inicio</a>
+        <a href="alojamiento-y-actividades/">Alojamiento y Actividades</a>
+      </nav>
+    </header>
+
+    <main>
+      <figure class="home-photo">
+        <img src="assets/images/wedding-hero.jpg" alt="">
+      </figure>
+
+      <section class="quote-section" aria-label="Cita">
+        <p>Andábamos sin buscarnos,</p>
+        <p>pero sabiendo que andábamos para encontrarnos.</p>
+        <p class="quote-credit">- Julio Cortázar -</p>
+      </section>
+
+      <section class="home-intro">
+        <div class="home-intro-copy">
+          <h1>¡Nos casamos!</h1>
+          <p>Bienvenidos a nuestra web, aquí podréis encontrar todos los detalles de nuestra boda.</p>
+          <p>En marzo de 2023 nos comprometimos y en agosto lo celebramos en Argentina con una maravillosa fiesta llena de sorpresas y momentos muy especiales.</p>
+          <p>El 4 de mayo de 2024 es nuestro gran día y nos encantaría que pudierais compartirlo con nosotros, ¡os esperamos!</p>
+          <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLScaSK7D72KOO7KfwdStBxh6jdZKz0smZlVxf57uhAqU2DHZgQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">Confirmar asistencia</a>
+        </div>
+        <img class="intro-photo" src="assets/images/couple-square.jpg" alt="">
+      </section>
+
+      <section class="home-events">
+        <h2>Ceremonia &amp; Celebración</h2>
+        <div class="home-event-grid">
+          <article class="home-event-card">
+            <a href="assets/images/church-home.jpg"><img src="assets/images/church-home.jpg" alt=""></a>
+            <h3>Ceremonia</h3>
+            <p>12:30</p>
+            <p>Iglesia Santa María de Recemel</p>
+            <p>As Somozas</p>
+            <section class="map-consent" data-map="Iglesia+Santa+Mar%C3%ADa+de+Recemel%2C+As+Somozas">
+              <h4>Necesitamos su consentimiento para cargar este mapa</h4>
+              <p>Utilizamos un servicio de terceros para incrustar el contenido de los mapas que podría estar recopilando datos sobre su actividad. Por favor, revise la política de privacidad que encontrará a continuación y haga clic en "Acepto" para ver el mapa.</p>
+              <button type="button" class="button map-accept">Acepto</button>
+            </section>
+          </article>
+          <article class="home-event-card">
+            <a href="assets/images/venue-home.jpg"><img src="assets/images/venue-home.jpg" alt=""></a>
+            <h3>Celebración</h3>
+            <p>14:00</p>
+            <p>Hotel Spa Attica 21</p>
+            <p>C/ Charca do Alligal, s/n, 27830 Vilalba, Lugo</p>
+            <section class="map-consent" data-map="Hotel+Spa+Attica+21%2C+Vilalba">
+              <h4>Necesitamos su consentimiento para cargar este mapa</h4>
+              <p>Utilizamos un servicio de terceros para incrustar el contenido de los mapas que podría estar recopilando datos sobre su actividad. Por favor, revise la política de privacidad que encontrará a continuación y haga clic en "Acepto" para ver el mapa.</p>
+              <button type="button" class="button map-accept">Acepto</button>
+            </section>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="./">Marta y Nelson</a>
+    </footer>
+    <script src="assets/site.js"></script>
   </body>
 </html>
